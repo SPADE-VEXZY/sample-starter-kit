@@ -26,7 +26,7 @@ const LoginFormComponent = () => {
   };
 
   return (
-    <div className="h-screen  flex flex-col justify-center items-center gap-8">
+    <div className="h-screen flex flex-col justify-center items-center gap-8">
       <LaravelIconComponent/>
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)}>
